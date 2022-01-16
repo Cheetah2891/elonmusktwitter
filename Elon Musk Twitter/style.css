@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lucida Console"
+}
+
+#graph {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+#background {
+    background-color: white;
+    height: 8600px;
+    background-image: url("pinkgradient.png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+#heading {
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+}
+
+.tweet {
+    padding: 100px; 
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#footer {
+    background-color: rgb(12, 12, 12);
+    height: 200px;
+    color: white;
+    border: 3px solid black;
+    margin-top: 30px;
+}
+
+#footerText {
+    padding: 40px;
+}
+
+#left {
+    float: left;
+    margin-left: 150px;
+    color: rgb(192, 192, 192);
+}
+
+#right {
+    float: right;
+    margin-right: 400px;
+    color: rgb(192, 192, 192);
+}
+
+#graphcaption {
+    margin-top: 10px;
+}
+
+#elonpic {
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+#eloncaption {
+    margin-top: 15px;
+}
+
+#list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: -200px;
+    margin-right: -200px;
+    line-height: 30px
+}
+
+#red {
+    color: red;
+}
+
+#graphtext {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#blue {
+    color: blue;
+}
+
+.tweeticon {
+    margin-top: -30px;
+}
